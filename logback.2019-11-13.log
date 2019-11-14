@@ -1,0 +1,124 @@
+17:18:03.906 logback [main] INFO  com.gsc.app.SpringApplications - Starting SpringApplications on ganshengcaideMacBook-Pro.local with PID 14749 (/Users/ganshengcai/git-workspace/Springboot_parent/Springboot_child01/target/classes started by ganshengcai in /Users/ganshengcai/git-workspace/Springboot_parent)
+17:18:03.908 logback [main] INFO  com.gsc.app.SpringApplications - No active profile set, falling back to default profiles: default
+17:18:04.620 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+17:18:04.634 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+17:18:04.642 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:18:04.642 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.26]
+17:18:04.719 logback [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:18:04.719 logback [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 779 ms
+17:18:04.910 logback [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+17:18:05.018 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+17:18:05.044 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+17:18:05.047 logback [main] INFO  com.gsc.app.SpringApplications - Started SpringApplications in 1.469 seconds (JVM running for 1.882)
+17:18:30.054 logback [Thread-5] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+17:18:32.116 logback-gsc [main] INFO  com.gsc.app.SpringApplications - Starting SpringApplications on ganshengcaideMacBook-Pro.local with PID 14752 (/Users/ganshengcai/git-workspace/Springboot_parent/Springboot_child01/target/classes started by ganshengcai in /Users/ganshengcai/git-workspace/Springboot_parent)
+17:18:32.118 logback-gsc [main] INFO  com.gsc.app.SpringApplications - No active profile set, falling back to default profiles: default
+17:18:32.686 logback-gsc [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+17:18:32.696 logback-gsc [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+17:18:32.702 logback-gsc [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:18:32.702 logback-gsc [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.26]
+17:18:32.759 logback-gsc [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:18:32.759 logback-gsc [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 617 ms
+17:18:32.880 logback-gsc [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+17:18:32.971 logback-gsc [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+17:18:32.991 logback-gsc [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+17:18:32.993 logback-gsc [main] INFO  com.gsc.app.SpringApplications - Started SpringApplications in 1.125 seconds (JVM running for 1.772)
+20:07:54.295 logback-gsc [Thread-5] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+20:07:56.592 logback-gsc [main] INFO  com.gsc.app.SpringApplications - Starting SpringApplications on ganshengcaideMacBook-Pro.local with PID 15731 (/Users/ganshengcai/git-workspace/Springboot_parent/Springboot_child01/target/classes started by ganshengcai in /Users/ganshengcai/git-workspace/Springboot_parent)
+20:07:56.593 logback-gsc [main] INFO  com.gsc.app.SpringApplications - No active profile set, falling back to default profiles: default
+20:07:57.272 logback-gsc [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+20:07:57.279 logback-gsc [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+20:07:57.284 logback-gsc [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+20:07:57.285 logback-gsc [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.26]
+20:07:57.336 logback-gsc [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+20:07:57.336 logback-gsc [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 722 ms
+20:07:57.458 logback-gsc [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+20:07:57.557 logback-gsc [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+20:07:57.582 logback-gsc [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+20:07:57.584 logback-gsc [main] INFO  com.gsc.app.SpringApplications - Started SpringApplications in 1.244 seconds (JVM running for 1.624)
+20:08:22.204 logback-gsc [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+20:08:22.204 logback-gsc [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+20:08:22.211 logback-gsc [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+20:08:22.231 logback-gsc [http-nio-8080-exec-1] INFO  com.gsc.controller.TestController - info日志
+20:08:22.231 logback-gsc [http-nio-8080-exec-1] WARN  com.gsc.controller.TestController - warn日志
+20:08:22.232 logback-gsc [http-nio-8080-exec-1] ERROR com.gsc.controller.TestController - error日志
+20:32:10.532 logback-gsc [Thread-5] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+20:32:13.003 logback-gsc [background-preinit] DEBUG o.h.v.m.ResourceBundleMessageInterpolator - Loaded expression factory via original TCCL
+20:32:13.042 logback-gsc [main] INFO  com.gsc.app.SpringApplications - Starting SpringApplications on ganshengcaideMacBook-Pro.local with PID 15787 (/Users/ganshengcai/git-workspace/Springboot_parent/Springboot_child01/target/classes started by ganshengcai in /Users/ganshengcai/git-workspace/Springboot_parent)
+20:32:13.043 logback-gsc [main] INFO  com.gsc.app.SpringApplications - No active profile set, falling back to default profiles: default
+20:32:13.653 logback-gsc [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+20:32:13.661 logback-gsc [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+20:32:13.666 logback-gsc [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+20:32:13.666 logback-gsc [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.26]
+20:32:13.714 logback-gsc [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+20:32:13.715 logback-gsc [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 648 ms
+20:32:13.836 logback-gsc [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+20:32:13.943 logback-gsc [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+20:32:13.970 logback-gsc [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+20:32:13.973 logback-gsc [main] INFO  com.gsc.app.SpringApplications - Started SpringApplications in 1.154 seconds (JVM running for 1.688)
+20:32:25.886 logback-gsc [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+20:32:25.886 logback-gsc [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+20:32:25.892 logback-gsc [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+20:42:36.162 logback-gsc [Thread-5] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+20:42:38.080 logback-gsc [main] INFO  com.gsc.app.SpringApplications - Starting SpringApplications on ganshengcaideMacBook-Pro.local with PID 15806 (/Users/ganshengcai/git-workspace/Springboot_parent/Springboot_child01/target/classes started by ganshengcai in /Users/ganshengcai/git-workspace/Springboot_parent)
+20:42:38.081 logback-gsc [main] INFO  com.gsc.app.SpringApplications - The following profiles are active: prod
+20:42:38.625 logback-gsc [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+20:42:38.634 logback-gsc [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+20:42:38.639 logback-gsc [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+20:42:38.640 logback-gsc [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.26]
+20:42:38.689 logback-gsc [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+20:42:38.689 logback-gsc [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 588 ms
+20:42:38.823 logback-gsc [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+20:42:38.925 logback-gsc [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+20:42:38.951 logback-gsc [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+20:42:38.953 logback-gsc [main] INFO  com.gsc.app.SpringApplications - Started SpringApplications in 1.113 seconds (JVM running for 1.592)
+20:42:46.128 logback-gsc [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+20:42:46.128 logback-gsc [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+20:42:46.132 logback-gsc [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+20:43:14.597 logback-gsc [http-nio-8080-exec-3] ERROR com.gsc.controller.TestController - error日志
+20:44:08.879 logback-gsc [http-nio-8080-exec-5] ERROR com.gsc.controller.TestController - error日志
+20:54:11.489 logback-gsc [Thread-5] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+20:54:15.107 logback-gsc [restartedMain] INFO  com.gsc.app.SpringApplications - Starting SpringApplications on ganshengcaideMacBook-Pro.local with PID 15830 (/Users/ganshengcai/git-workspace/Springboot_parent/Springboot_child01/target/classes started by ganshengcai in /Users/ganshengcai/git-workspace/Springboot_parent)
+20:54:15.108 logback-gsc [restartedMain] INFO  com.gsc.app.SpringApplications - The following profiles are active: prod
+20:54:15.787 logback-gsc [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+20:54:15.794 logback-gsc [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+20:54:15.800 logback-gsc [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+20:54:15.800 logback-gsc [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.26]
+20:54:15.802 logback-gsc [restartedMain] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/ganshengcai/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+20:54:15.850 logback-gsc [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+20:54:15.850 logback-gsc [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 715 ms
+20:54:15.889 logback-gsc [restartedMain] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+20:54:15.892 logback-gsc [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+20:54:15.892 logback-gsc [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+20:54:15.892 logback-gsc [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+20:54:15.892 logback-gsc [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+20:54:16.153 logback-gsc [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+20:54:16.170 logback-gsc [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+20:54:16.194 logback-gsc [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+20:54:16.197 logback-gsc [restartedMain] INFO  com.gsc.app.SpringApplications - Started SpringApplications in 1.306 seconds (JVM running for 1.84)
+20:55:10.141 logback-gsc [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+20:55:10.141 logback-gsc [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+20:55:10.145 logback-gsc [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+20:55:10.162 logback-gsc [http-nio-8080-exec-1] ERROR com.gsc.controller.TestController - error日志
+20:58:13.066 logback-gsc [restartedMain] INFO  com.gsc.app.SpringApplications - Starting SpringApplications on ganshengcaideMacBook-Pro.local with PID 15869 (/Users/ganshengcai/git-workspace/Springboot_parent/Springboot_child01/target/classes started by ganshengcai in /Users/ganshengcai/git-workspace/Springboot_parent)
+20:58:13.066 logback-gsc [restartedMain] INFO  com.gsc.app.SpringApplications - The following profiles are active: prod
+20:58:13.713 logback-gsc [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+20:58:13.722 logback-gsc [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+20:58:13.729 logback-gsc [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+20:58:13.729 logback-gsc [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.26]
+20:58:13.731 logback-gsc [restartedMain] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/ganshengcai/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+20:58:13.777 logback-gsc [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+20:58:13.777 logback-gsc [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 685 ms
+20:58:13.813 logback-gsc [restartedMain] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+20:58:13.816 logback-gsc [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+20:58:13.816 logback-gsc [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+20:58:13.816 logback-gsc [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+20:58:13.816 logback-gsc [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+20:58:14.075 logback-gsc [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+20:58:14.093 logback-gsc [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+20:58:14.118 logback-gsc [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+20:58:14.121 logback-gsc [restartedMain] INFO  com.gsc.app.SpringApplications - Started SpringApplications in 1.26 seconds (JVM running for 1.805)
+20:58:49.342 logback-gsc [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+20:58:49.342 logback-gsc [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+20:58:49.346 logback-gsc [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+20:58:49.361 logback-gsc [http-nio-8080-exec-1] ERROR com.gsc.controller.TestController - error日志日志日志
