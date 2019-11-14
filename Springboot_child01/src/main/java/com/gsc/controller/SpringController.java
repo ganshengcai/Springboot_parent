@@ -21,7 +21,7 @@ public class SpringController {
         logger.debug("debug日志");
         logger.info("info日志");
         logger.warn("warn日志");
-        logger.error("error日志");
+        logger.error("error日志rrrr");
         return "ok";
     }
 
