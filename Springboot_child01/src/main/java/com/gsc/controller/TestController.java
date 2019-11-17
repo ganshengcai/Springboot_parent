@@ -15,7 +15,7 @@ public class TestController {
         logger.debug("debugger日志");
         logger.info("info日志");
         logger.warn("warn日志");
-        logger.error("error日志日志日志rrrr");
+        logger.error("error日志日志日志rrrrrrttt");
         return "show";
     }
 }

@@ -9,6 +9,8 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>Springboot_child01</module>
+        <module>Springboot_child02</module>
+        <module>Springboot_child03</module>
     </modules>
     <packaging>pom</packaging>
 
