@@ -11,6 +11,9 @@
         <module>Springboot_child01</module>
         <module>Springboot_child02</module>
         <module>Springboot_child03</module>
+        <module>Springboot_child04</module>
+        <module>Springboot_child05_jdbc</module>
+        <module>Springboot_child06</module>
     </modules>
     <packaging>pom</packaging>
 

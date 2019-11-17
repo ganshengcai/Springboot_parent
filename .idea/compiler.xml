@@ -6,9 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Springboot_child05_jdbc" />
+        <module name="Springboot_child06" />
+        <module name="Springboot_child04" />
+        <module name="Springboot_child03" />
         <module name="Springboot_child02" />
         <module name="Springboot_child01" />
-        <module name="Springboot_child03" />
       </profile>
     </annotationProcessing>
   </component>

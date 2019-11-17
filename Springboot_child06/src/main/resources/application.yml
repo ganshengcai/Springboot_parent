@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    name: test
+    url: jdbc:mysql://localhost:3306/student
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+
+mybatis:
+  mapper-locations: classpath:mapper/UsersMapper.xml
+  config-location: classpath:mybatis/mybatis-config.xml
