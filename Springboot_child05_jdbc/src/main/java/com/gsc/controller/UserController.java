@@ -19,7 +19,7 @@ public class UserController {
         Users users = new Users();
         users.setName("大法师地方");
         users.setPassword("dfasd");
-        users.setEmail("asdfas@qq.com");
+        users.setEmail("aaabbb@qq.com");
         users.setBirthday("20120303");
         
         userService.saveUser(users);

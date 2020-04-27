@@ -19,14 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b502b0d-03b4-48f6-b79d-d5eb6b0d3a47" name="Default Changelist" comment="">
+    <list default="true" id="7b502b0d-03b4-48f6-b79d-d5eb6b0d3a47" name="Default Changelist" comment="添加接口">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Springboot_child02/Springboot_child02.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Springboot_child03/Springboot_child03.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Springboot_child04/Springboot_child04.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Springboot_child05_jdbc/Springboot_child05_jdbc.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Springboot_child06/Springboot_child06.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Springboot_child06/src/main/java/com/gsc/mapper/UsersMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Springboot_child06/src/main/java/com/gsc/mapper/UsersMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Springboot_child05_jdbc/src/main/java/com/gsc/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Springboot_child05_jdbc/src/main/java/com/gsc/controller/UserController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,10 +75,12 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Springboot_child01/src/main/resources/static" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
@@ -99,7 +96,7 @@
       <recent name="$PROJECT_DIR$/Springboot_child01/src/main/resources/static" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.SpringApp">
     <configuration name="SpringApp (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="Springboot_child03" />
       <extension name="coverage">
@@ -181,6 +178,7 @@
       <workItem from="1573558039792" duration="420000" />
       <workItem from="1573559348112" duration="4206000" />
       <workItem from="1573565018121" duration="31535000" />
+      <workItem from="1587996429082" duration="468000" />
     </task>
     <task id="LOCAL-00001" summary="练习">
       <created>1573729896658</created>
@@ -203,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573983291189</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="添加接口">
+      <created>1587991636679</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1587991636679</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -214,15 +219,37 @@
       <configuration name="TestSpringController.test1" configurationId="JUnit" />
     </history-entry>
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38286000" />
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State />
@@ -230,12 +257,29 @@
         </entry>
       </map>
     </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="练习" />
     <MESSAGE value="dasd" />
     <MESSAGE value="添加新的项目" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加新的项目" />
+    <MESSAGE value="添加接口" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加接口" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="370" y="239" key="Vcs.Push.Dialog.v2" timestamp="1587991658852">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state x="370" y="239" key="Vcs.Push.Dialog.v2/0.23.1680.947@0.23.1680.947" timestamp="1587991658852" />
+    <state x="426" y="295" key="git4idea.merge.GitPullDialog" timestamp="1587991603029">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state x="426" y="295" key="git4idea.merge.GitPullDialog/0.23.1680.947@0.23.1680.947" timestamp="1587991603029" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Springboot_parent$SpringApplications.ic" NAME="SpringApplications Coverage Results" MODIFIED="1573722535199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
