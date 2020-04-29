@@ -7,6 +7,7 @@ public class Users {
     private String password;
     private String birthday;
     private String email;
+    private String adress;
 
     public Integer getId() {
         return id;
@@ -46,5 +47,13 @@ public class Users {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    public String getAdress() {
+        return adress;
+    }
+
+    public void setAdress(String adress) {
+        this.adress = adress;
     }
 }
