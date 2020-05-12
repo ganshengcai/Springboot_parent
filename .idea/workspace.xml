@@ -20,8 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b502b0d-03b4-48f6-b79d-d5eb6b0d3a47" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Springboot_child04/src/main/java/com/gsc/app/test/TypeTestClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Springboot_child06/src/com/gsc/interfaces/IHuman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Springboot_child06/src/com/gsc/interfaces/impl/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Springboot_child06/src/com/gsc/service/HumanService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -91,20 +92,36 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Springboot_child03/src/main/webapp/jsp" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Springboot_child01/src/main/resources/static" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.gsc.dao.impl" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Springboot_child01/src/main/resources/static" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Springboot_child03/src/main/webapp/jsp" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TypeTestClass">
+  <component name="RunManager" selected="Application.HumanService">
+    <configuration name="HumanService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gsc.service.HumanService" />
+      <module name="Springboot_child06" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gsc.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestInterfaceImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gsc.dao.impl.TestInterfaceImpl" />
       <module name="Springboot_child04" />
@@ -127,19 +144,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpringApp (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="Springboot_child04" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gsc.app.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gsc.app.SpringApp" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -172,6 +176,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HumanService" />
         <item itemvalue="Application.TypeTestClass" />
         <item itemvalue="Application.TestInterfaceImpl" />
       </list>
@@ -195,7 +200,9 @@
       <workItem from="1587996429082" duration="1320000" />
       <workItem from="1588073956380" duration="4315000" />
       <workItem from="1588402053556" duration="3168000" />
-      <workItem from="1588588458184" duration="1029000" />
+      <workItem from="1588588458184" duration="3059000" />
+      <workItem from="1589076815282" duration="233000" />
+      <workItem from="1589284994419" duration="1973000" />
     </task>
     <task id="LOCAL-00001" summary="练习">
       <created>1573729896658</created>
@@ -253,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588404230547</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="addTest">
+      <created>1588854380790</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1588854380790</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -317,118 +331,70 @@
     <MESSAGE value="添加旅客姓名列表检索" />
     <MESSAGE value="添加地址" />
     <MESSAGE value="添加接口" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加接口" />
+    <MESSAGE value="addTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="addTest" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="653" y="187" key="#com.intellij.ide.util.MemberChooser" timestamp="1588402915324">
+    <state x="653" y="187" key="#com.intellij.ide.util.MemberChooser" timestamp="1589286596683">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state x="653" y="187" key="#com.intellij.ide.util.MemberChooser/0.23.1680.947@0.23.1680.947" timestamp="1588402915324" />
+    <state x="653" y="187" key="#com.intellij.ide.util.MemberChooser/0.23.1680.947@0.23.1680.947" timestamp="1589286596683" />
     <state x="653" y="187" key="#com.intellij.ide.util.MemberChooser/0.23.1680.949@0.23.1680.949" timestamp="1588172780453" />
-    <state x="326" y="69" key="CommitChangelistDialog2" timestamp="1588404230368">
-      <screen x="0" y="23" width="1680" height="947" />
+    <state x="326" y="69" key="CommitChangelistDialog2" timestamp="1588854380545">
+      <screen x="0" y="23" width="1680" height="949" />
     </state>
     <state x="326" y="69" key="CommitChangelistDialog2/0.23.1680.947@0.23.1680.947" timestamp="1588404230368" />
-    <state x="326" y="69" key="CommitChangelistDialog2/0.23.1680.949@0.23.1680.949" timestamp="1588172824381" />
-    <state width="1638" height="314" key="GridCell.Tab.0.bottom" timestamp="1588597386632">
+    <state x="326" y="69" key="CommitChangelistDialog2/0.23.1680.949@0.23.1680.949" timestamp="1588854380545" />
+    <state width="1638" height="314" key="GridCell.Tab.0.bottom" timestamp="1588936636378">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state width="1638" height="314" key="GridCell.Tab.0.bottom/0.23.1680.947@0.23.1680.947" timestamp="1588597386632" />
-    <state width="1638" height="314" key="GridCell.Tab.0.center" timestamp="1588597386631">
+    <state width="1638" height="314" key="GridCell.Tab.0.bottom/0.23.1680.947@0.23.1680.947" timestamp="1588936636378" />
+    <state width="1638" height="314" key="GridCell.Tab.0.center" timestamp="1588936636377">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state width="1638" height="314" key="GridCell.Tab.0.center/0.23.1680.947@0.23.1680.947" timestamp="1588597386631" />
-    <state width="1638" height="314" key="GridCell.Tab.0.left" timestamp="1588597386630">
+    <state width="1638" height="314" key="GridCell.Tab.0.center/0.23.1680.947@0.23.1680.947" timestamp="1588936636377" />
+    <state width="1638" height="314" key="GridCell.Tab.0.left" timestamp="1588936636377">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state width="1638" height="314" key="GridCell.Tab.0.left/0.23.1680.947@0.23.1680.947" timestamp="1588597386630" />
-    <state width="1638" height="314" key="GridCell.Tab.0.right" timestamp="1588597386631">
+    <state width="1638" height="314" key="GridCell.Tab.0.left/0.23.1680.947@0.23.1680.947" timestamp="1588936636377" />
+    <state width="1638" height="314" key="GridCell.Tab.0.right" timestamp="1588936636377">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state width="1638" height="314" key="GridCell.Tab.0.right/0.23.1680.947@0.23.1680.947" timestamp="1588597386631" />
-    <state width="1638" height="314" key="GridCell.Tab.1.bottom" timestamp="1588597386633">
+    <state width="1638" height="314" key="GridCell.Tab.0.right/0.23.1680.947@0.23.1680.947" timestamp="1588936636377" />
+    <state width="1638" height="314" key="GridCell.Tab.1.bottom" timestamp="1588936636379">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state width="1638" height="314" key="GridCell.Tab.1.bottom/0.23.1680.947@0.23.1680.947" timestamp="1588597386633" />
-    <state width="1638" height="314" key="GridCell.Tab.1.center" timestamp="1588597386633">
+    <state width="1638" height="314" key="GridCell.Tab.1.bottom/0.23.1680.947@0.23.1680.947" timestamp="1588936636379" />
+    <state width="1638" height="314" key="GridCell.Tab.1.center" timestamp="1588936636378">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state width="1638" height="314" key="GridCell.Tab.1.center/0.23.1680.947@0.23.1680.947" timestamp="1588597386633" />
-    <state width="1638" height="314" key="GridCell.Tab.1.left" timestamp="1588597386632">
+    <state width="1638" height="314" key="GridCell.Tab.1.center/0.23.1680.947@0.23.1680.947" timestamp="1588936636378" />
+    <state width="1638" height="314" key="GridCell.Tab.1.left" timestamp="1588936636378">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state width="1638" height="314" key="GridCell.Tab.1.left/0.23.1680.947@0.23.1680.947" timestamp="1588597386632" />
-    <state width="1638" height="314" key="GridCell.Tab.1.right" timestamp="1588597386633">
+    <state width="1638" height="314" key="GridCell.Tab.1.left/0.23.1680.947@0.23.1680.947" timestamp="1588936636378" />
+    <state width="1638" height="314" key="GridCell.Tab.1.right" timestamp="1588936636378">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state width="1638" height="314" key="GridCell.Tab.1.right/0.23.1680.947@0.23.1680.947" timestamp="1588597386633" />
-    <state x="341" y="135" key="SettingsEditor" timestamp="1588408159605">
+    <state width="1638" height="314" key="GridCell.Tab.1.right/0.23.1680.947@0.23.1680.947" timestamp="1588936636378" />
+    <state x="197" y="132" key="SettingsEditor" timestamp="1589286215871">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state x="341" y="135" key="SettingsEditor/0.23.1680.947@0.23.1680.947" timestamp="1588408159605" />
-    <state x="370" y="239" key="Vcs.Push.Dialog.v2" timestamp="1588404244782">
-      <screen x="0" y="23" width="1680" height="947" />
+    <state x="197" y="132" key="SettingsEditor/0.23.1680.947@0.23.1680.947" timestamp="1589286215871" />
+    <state x="370" y="239" key="Vcs.Push.Dialog.v2" timestamp="1588854383706">
+      <screen x="0" y="23" width="1680" height="949" />
     </state>
     <state x="370" y="239" key="Vcs.Push.Dialog.v2/0.23.1680.947@0.23.1680.947" timestamp="1588404244782" />
-    <state x="370" y="239" key="Vcs.Push.Dialog.v2/0.23.1680.949@0.23.1680.949" timestamp="1588172945352" />
+    <state x="370" y="239" key="Vcs.Push.Dialog.v2/0.23.1680.949@0.23.1680.949" timestamp="1588854383706" />
     <state x="426" y="296" key="git4idea.merge.GitPullDialog" timestamp="1588172867780">
       <screen x="0" y="23" width="1680" height="949" />
     </state>
     <state x="426" y="295" key="git4idea.merge.GitPullDialog/0.23.1680.947@0.23.1680.947" timestamp="1587991603029" />
     <state x="426" y="296" key="git4idea.merge.GitPullDialog/0.23.1680.949@0.23.1680.949" timestamp="1588172867780" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Springboot_child04/src/main/java/com/gsc/app/test/TypeTestClass.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Springboot_parent$SpringApplications.ic" NAME="SpringApplications Coverage Results" MODIFIED="1573722535199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.gsc.app.*</FILTER>
     </SUITE>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArquillianSettingsConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ScopeChooserConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>
