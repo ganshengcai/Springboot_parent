@@ -20,9 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b502b0d-03b4-48f6-b79d-d5eb6b0d3a47" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Springboot_child06/src/com/gsc/interfaces/IHuman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Springboot_child06/src/com/gsc/interfaces/impl/Human.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Springboot_child06/src/com/gsc/service/HumanService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Springboot_child06/src/com/gsc/interfaces/IFaceCapture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Springboot_child06/src/com/gsc/interfaces/impl/FaceCaptureImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Springboot_child06/src/com/gsc/service/Face.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Springboot_child06/src/com/gsc/service/FaceCaptureService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,8 +41,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Jsp File" />
-        <option value="Interface" />
         <option value="package-info" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -108,7 +109,20 @@
       <recent name="$PROJECT_DIR$/Springboot_child03/src/main/webapp/jsp" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HumanService">
+  <component name="RunManager" selected="Application.Face">
+    <configuration name="Face" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gsc.service.Face" />
+      <module name="Springboot_child06" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gsc.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HumanService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gsc.service.HumanService" />
       <module name="Springboot_child06" />
@@ -148,19 +162,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringApp (3)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="Springboot_child05_jdbc" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gsc.app.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gsc.app.SpringApp" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SpringApplications" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="Springboot_child01" />
       <extension name="coverage">
@@ -176,6 +177,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Face" />
         <item itemvalue="Application.HumanService" />
         <item itemvalue="Application.TypeTestClass" />
         <item itemvalue="Application.TestInterfaceImpl" />
@@ -202,7 +204,8 @@
       <workItem from="1588402053556" duration="3168000" />
       <workItem from="1588588458184" duration="3059000" />
       <workItem from="1589076815282" duration="233000" />
-      <workItem from="1589284994419" duration="1973000" />
+      <workItem from="1589284994419" duration="3937000" />
+      <workItem from="1589605475710" duration="3876000" />
     </task>
     <task id="LOCAL-00001" summary="练习">
       <created>1573729896658</created>
@@ -267,7 +270,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588854380790</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="addInterface">
+      <created>1589287019864</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1589287019864</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -332,35 +342,36 @@
     <MESSAGE value="添加地址" />
     <MESSAGE value="添加接口" />
     <MESSAGE value="addTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="addTest" />
+    <MESSAGE value="addInterface" />
+    <option name="LAST_COMMIT_MESSAGE" value="addInterface" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="653" y="187" key="#com.intellij.ide.util.MemberChooser" timestamp="1589286596683">
+    <state x="653" y="187" key="#com.intellij.ide.util.MemberChooser" timestamp="1589607467217">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state x="653" y="187" key="#com.intellij.ide.util.MemberChooser/0.23.1680.947@0.23.1680.947" timestamp="1589286596683" />
+    <state x="653" y="187" key="#com.intellij.ide.util.MemberChooser/0.23.1680.947@0.23.1680.947" timestamp="1589607467217" />
     <state x="653" y="187" key="#com.intellij.ide.util.MemberChooser/0.23.1680.949@0.23.1680.949" timestamp="1588172780453" />
-    <state x="326" y="69" key="CommitChangelistDialog2" timestamp="1588854380545">
-      <screen x="0" y="23" width="1680" height="949" />
+    <state x="326" y="69" key="CommitChangelistDialog2" timestamp="1589287019736">
+      <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state x="326" y="69" key="CommitChangelistDialog2/0.23.1680.947@0.23.1680.947" timestamp="1588404230368" />
+    <state x="326" y="69" key="CommitChangelistDialog2/0.23.1680.947@0.23.1680.947" timestamp="1589287019736" />
     <state x="326" y="69" key="CommitChangelistDialog2/0.23.1680.949@0.23.1680.949" timestamp="1588854380545" />
-    <state width="1638" height="314" key="GridCell.Tab.0.bottom" timestamp="1588936636378">
+    <state width="1638" height="254" key="GridCell.Tab.0.bottom" timestamp="1589608012302">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state width="1638" height="314" key="GridCell.Tab.0.bottom/0.23.1680.947@0.23.1680.947" timestamp="1588936636378" />
-    <state width="1638" height="314" key="GridCell.Tab.0.center" timestamp="1588936636377">
+    <state width="1638" height="254" key="GridCell.Tab.0.bottom/0.23.1680.947@0.23.1680.947" timestamp="1589608012302" />
+    <state width="1638" height="254" key="GridCell.Tab.0.center" timestamp="1589608012301">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state width="1638" height="314" key="GridCell.Tab.0.center/0.23.1680.947@0.23.1680.947" timestamp="1588936636377" />
-    <state width="1638" height="314" key="GridCell.Tab.0.left" timestamp="1588936636377">
+    <state width="1638" height="254" key="GridCell.Tab.0.center/0.23.1680.947@0.23.1680.947" timestamp="1589608012301" />
+    <state width="1638" height="254" key="GridCell.Tab.0.left" timestamp="1589608012300">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state width="1638" height="314" key="GridCell.Tab.0.left/0.23.1680.947@0.23.1680.947" timestamp="1588936636377" />
-    <state width="1638" height="314" key="GridCell.Tab.0.right" timestamp="1588936636377">
+    <state width="1638" height="254" key="GridCell.Tab.0.left/0.23.1680.947@0.23.1680.947" timestamp="1589608012300" />
+    <state width="1638" height="254" key="GridCell.Tab.0.right" timestamp="1589608012301">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state width="1638" height="314" key="GridCell.Tab.0.right/0.23.1680.947@0.23.1680.947" timestamp="1588936636377" />
+    <state width="1638" height="254" key="GridCell.Tab.0.right/0.23.1680.947@0.23.1680.947" timestamp="1589608012301" />
     <state width="1638" height="314" key="GridCell.Tab.1.bottom" timestamp="1588936636379">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
@@ -381,10 +392,10 @@
       <screen x="0" y="23" width="1680" height="947" />
     </state>
     <state x="197" y="132" key="SettingsEditor/0.23.1680.947@0.23.1680.947" timestamp="1589286215871" />
-    <state x="370" y="239" key="Vcs.Push.Dialog.v2" timestamp="1588854383706">
-      <screen x="0" y="23" width="1680" height="949" />
+    <state x="370" y="239" key="Vcs.Push.Dialog.v2" timestamp="1589287030387">
+      <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state x="370" y="239" key="Vcs.Push.Dialog.v2/0.23.1680.947@0.23.1680.947" timestamp="1588404244782" />
+    <state x="370" y="239" key="Vcs.Push.Dialog.v2/0.23.1680.947@0.23.1680.947" timestamp="1589287030387" />
     <state x="370" y="239" key="Vcs.Push.Dialog.v2/0.23.1680.949@0.23.1680.949" timestamp="1588854383706" />
     <state x="426" y="296" key="git4idea.merge.GitPullDialog" timestamp="1588172867780">
       <screen x="0" y="23" width="1680" height="949" />
