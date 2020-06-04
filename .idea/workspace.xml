@@ -20,9 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b502b0d-03b4-48f6-b79d-d5eb6b0d3a47" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Springboot_child01/src/main/java/com/gsc/app/SpringApplications.java" beforeDir="false" afterPath="$PROJECT_DIR$/Springboot_child01/src/main/java/com/gsc/app/SpringApplications.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -206,7 +205,8 @@
       <workItem from="1589284994419" duration="3937000" />
       <workItem from="1589605475710" duration="5579000" />
       <workItem from="1590586504557" duration="1488000" />
-      <workItem from="1590806201038" duration="2631000" />
+      <workItem from="1590806201038" duration="2969000" />
+      <workItem from="1591281463997" duration="26000" />
     </task>
     <task id="LOCAL-00001" summary="练习">
       <created>1573729896658</created>
@@ -292,7 +292,21 @@
       <option name="project" value="LOCAL" />
       <updated>1590587514063</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="hashmap练习">
+      <created>1590845445912</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1590845445912</updated>
+    </task>
+    <task id="LOCAL-00014" summary="添加备注">
+      <created>1590845587056</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1590845587056</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -359,7 +373,8 @@
     <MESSAGE value="addTest" />
     <MESSAGE value="addInterface" />
     <MESSAGE value="hashmap练习" />
-    <option name="LAST_COMMIT_MESSAGE" value="hashmap练习" />
+    <MESSAGE value="添加备注" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加备注" />
   </component>
   <component name="WindowStateProjectService">
     <state x="653" y="187" key="#com.intellij.ide.util.MemberChooser" timestamp="1589607467217">
@@ -367,11 +382,11 @@
     </state>
     <state x="653" y="187" key="#com.intellij.ide.util.MemberChooser/0.23.1680.947@0.23.1680.947" timestamp="1589607467217" />
     <state x="653" y="187" key="#com.intellij.ide.util.MemberChooser/0.23.1680.949@0.23.1680.949" timestamp="1588172780453" />
-    <state x="326" y="69" key="CommitChangelistDialog2" timestamp="1590587513908">
-      <screen x="0" y="23" width="1680" height="947" />
+    <state x="326" y="69" key="CommitChangelistDialog2" timestamp="1590845586943">
+      <screen x="0" y="23" width="1680" height="949" />
     </state>
     <state x="326" y="69" key="CommitChangelistDialog2/0.23.1680.947@0.23.1680.947" timestamp="1590587513908" />
-    <state x="326" y="69" key="CommitChangelistDialog2/0.23.1680.949@0.23.1680.949" timestamp="1588854380545" />
+    <state x="326" y="69" key="CommitChangelistDialog2/0.23.1680.949@0.23.1680.949" timestamp="1590845586943" />
     <state width="1638" height="328" key="GridCell.Tab.0.bottom" timestamp="1590588389266">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
@@ -413,11 +428,11 @@
     </state>
     <state x="197" y="132" key="SettingsEditor/0.23.1680.947@0.23.1680.947" timestamp="1589286215871" />
     <state x="197" y="132" key="SettingsEditor/0.23.1680.949@0.23.1680.949" timestamp="1590808983854" />
-    <state x="370" y="239" key="Vcs.Push.Dialog.v2" timestamp="1590587533547">
-      <screen x="0" y="23" width="1680" height="947" />
+    <state x="370" y="239" key="Vcs.Push.Dialog.v2" timestamp="1590845719564">
+      <screen x="0" y="23" width="1680" height="949" />
     </state>
     <state x="370" y="239" key="Vcs.Push.Dialog.v2/0.23.1680.947@0.23.1680.947" timestamp="1590587533547" />
-    <state x="370" y="239" key="Vcs.Push.Dialog.v2/0.23.1680.949@0.23.1680.949" timestamp="1588854383706" />
+    <state x="370" y="239" key="Vcs.Push.Dialog.v2/0.23.1680.949@0.23.1680.949" timestamp="1590845719564" />
     <state x="540" y="253" width="600" height="486" key="find.popup" timestamp="1590808991405">
       <screen x="0" y="23" width="1680" height="949" />
     </state>
